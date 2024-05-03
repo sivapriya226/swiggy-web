@@ -1,0 +1,499 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Swiggy Redesign</title>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Swiggy</h1>
+            <nav>
+                <ul>
+                    <a href="#home" class="active">Home</a>
+                    <a href="#menu">Menu</a>
+                    <a href="#about">About Us</a>
+                    <a href="#signin">Sign In</a>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section class="home" id="home"></section>
+        <div class="hero">
+            <div class="container">
+                <h2>Welcome to Swiggy</h2>
+                <p>Order your favorite food online and get it delivered to your doorstep!</p>
+                <form action="#" class="search-form">
+                    <input type="text" placeholder="Search for food">
+                    <button type="submit">Search</button>
+                </form>
+            </div>
+        </div>
+
+        <section class="categories" id="menu">
+            <div class="container">
+                <h2>Explore Our Categories</h2>
+                <div class="category">
+                    <img src="./17e2cd9a00e533838b7e9856961d470a.jpg" alt="Category 1">
+                    <h3>Italian</h3>
+                </div>
+                <div class="category">
+                    <img src="./a14fff4d173dac751a4c193a3ecd0890.jpg" alt="Category 2">
+                    <h3>Korean</h3>
+                </div>
+                <div class="category">
+                    <img src="./92ebafdca02b03daaac3953193ad1297.jpg" alt="Category 3">
+                    <h3>Indian</h3>
+                </div>
+                <div class="category">
+                    <img src="./5ede6cdb772e12392ff79dc2a238bc57.jpg" alt="Category 4">
+                    <h3>Arabian</h3>
+                </div>
+                <div class="category">
+                    <img src="./b1bc4c726d89e528b1d8ee5cf87b545d.jpg" alt="Category 5">
+                    <h3>British</h3>
+                </div>
+                <div class="category">
+                    <img src="./0f6816c98dada8b549eaf40339faed23.jpg" alt="Category 6">
+                    <h3>Thai</h3>
+                </div>
+            </div>
+        </section>
+
+        <section class="featured-restaurants">
+            <div class="container">
+                <h2>Featured Restaurants</h2>
+                <div class="restaurant">
+                    <img src="./Italian_Food_Logo_Design_1_1024x1024.jpg" alt="Restaurant 1">
+                    <h3>BOLZANO</h3>
+                    <p>Italian Cuisine</p>
+                </div>
+                <div class="restaurant">
+                    <img src="./a7c7843dceb85451c128fe425bcf4654.jpg" alt="Restaurant 2">
+                    <h3>YUZU</h3>
+                    <p>Asian Fusion</p>
+                </div>
+                <div class="restaurant">
+                    <img src="./119097316_1604988836339087_829193702037646574_n.png" alt="Restaurant 3">
+                    <h3>BRINDHAVAN</h3>
+                    <p>Indian</p>
+                </div>
+            </div>
+        </section>
+
+
+        <section class="localities">
+            <div class="container">
+                <h2>Explore Localities in and around Kochi</h2>
+                <div class="locality-boxes">
+                    <div class="locality-box">
+                        <p>Edapalli</p>
+                    </div>
+                    <div class="locality-box">
+                        <p>Kakkanad Ndc</p>
+                    </div>
+                    <div class="locality-box">
+                        <p>Kalamassery Development Plot</p>
+                    </div>
+                    <div class="locality-box">
+                        <p>Rajagiri</p>
+                    </div>
+                    <div class="locality-box">
+                        <p>Vallarpadam</p>
+                    </div>
+                    <div class="locality-box">
+                        <p>Kumbalam</p>
+                    </div>
+                    <div class="locality-box">
+                        <p>Bhaktanandapuram</p>
+                    </div>
+                    <div class="locality-box">
+                        <p>Kokkappilly</p>
+                    </div>
+                    <div class="locality-box">
+                        <p>Amballur</p>
+                    </div>
+                    <div class="locality-box">
+                        <p>Paingarapilly</p>
+                    </div>
+                    <div class="locality-box">
+                        <p>Perumpilly</p>
+                    </div>
+                </div>
+                <button id="show-more">Show More</button>
+            </div>
+        </section>
+
+        <section class="restaurant-chains">
+            <div class="container">
+                <h2>Restaurant Chains in Kochi</h2>
+                <div class="chain-list">
+                    <div class="chain-box">
+                        <p>Ambiswamys Restaurant</p>
+                    </div>
+                    <div class="chain-box">
+                        <p>Burger Spot</p>
+                    </div>
+                    <div class="chain-box">
+                        <p>Juicy</p>
+                    </div>
+                    <div class="chain-box">
+                        <p>Hotel Aryaas</p>
+                    </div>
+                    <div class="chain-box">
+                        <p>THAAL KITCHEN</p>
+                    </div>
+                    <div class="chain-box">
+                        <p>Arabian Dreams</p>
+                    </div>
+                    <div class="chain-box">
+                        <p>Golden Dragon</p>
+                    </div>
+                    <div class="chain-box">
+                        <p>Al Taza</p>
+                    </div>
+                    <div class="chain-box">
+                        <p>Chopstix</p>
+                    </div>
+                    <div class="chain-box">
+                        <p>The Cococane Juicery</p>
+                    </div>
+                    <div class="chain-box">
+                        <p>Royal Bakers & Restaurant</p>
+                    </div>
+                </div>
+                <button id="show-more">Show More</button>
+            </div>
+        </section>
+
+
+        <section class="about-us" id="about">
+            <div class="container">
+                <h2>About Us</h2>
+                <p>Welcome to Swiggy - where food meets convenience and innovation! At Swiggy, we are passionate about revolutionizing the way India eats. Founded with a simple yet ambitious goal – to provide unparalleled convenience and delicious meals to our customers – we've grown to become India's leading food delivery platform.</p>
+        
+                <p>Our journey began with a single idea: to bridge the gap between restaurants and hungry customers by leveraging technology. Since our inception, we've been committed to harnessing the power of innovation to create seamless experiences for both our restaurant partners and patrons.</p>
+        
+                <p>Driven by our core values of customer obsession, reliability, and excellence, we strive to exceed expectations with every order. Whether you're craving your favorite comfort food or exploring new culinary delights, Swiggy is here to serve you, anytime, anywhere.</p>
+        
+                <p>But Swiggy is more than just a food delivery service; we're a community of food lovers, entrepreneurs, and innovators dedicated to shaping the future of food in India. With a relentless focus on quality, safety, and efficiency, we're constantly pushing boundaries to redefine what it means to enjoy a great meal.</p>
+        
+                <p>Join us on our mission to transform the food delivery landscape in India. Together, let's savor the flavors of innovation, convenience, and delight with every bite. Welcome to Swiggy – where good food is just a click away!</p>
+            </div>
+        </section>
+        <section id="signin">
+            <div class="container">
+                
+                <h2>Sign In</h2>
+                <form>
+                    
+                    <label for="username">Username:</label>
+                    <input type="text" id="username" name="username" required>
+                    <label for="password">Password:</label>
+                    <input type="password" id="password" name="password" required>
+                    <button type="submit">Sign In</button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Swiggy. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+<style>
+    
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body {
+    font-family: poppins, sans-serif;
+    background-color: #f4f4f4;
+}
+
+.container {
+    width: 90%;
+    margin: 0 auto;
+}
+
+header {
+    background-color: #f44336;
+    color: rgb(255, 255, 255);
+    padding: 20px 0;
+}
+
+header h1 {
+    font-size: 32px;
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+ul a {
+    color: white;
+  }
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: rgb(19, 19, 19);
+    text-decoration: none;
+}
+
+main {
+    padding: 20px 0;
+}
+
+.hero {
+    background-image: url('hero-bg.jpg');
+    background-size: cover;
+    padding: 100px 0;
+    text-align: center;
+    color: rgb(16, 16, 16);
+}
+
+.hero h2 {
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+
+.search-form {
+    margin-top: 20px;
+}
+
+.search-form input {
+    padding: 10px;
+    width: 70%;
+    border: none;
+    border-radius: 5px 0 0 5px;
+}
+
+.search-form button {
+    padding: 10px 20px;
+    background-color: #f44336;
+    border: none;
+    border-radius: 0 5px 5px 0;
+    color: white;
+}
+
+.categories {
+    padding: 50px 0;
+    text-align: center;
+}
+
+.categories h2 {
+    font-size: 36px;
+    margin-bottom: 30px;
+}
+
+.category {
+    display: inline-block;
+    width: 30%;
+    margin: 0 15px;
+}
+
+.category img {
+    width: 70%;
+    border-radius: 10px;
+}
+
+.category h3 {
+    margin-top: 10px;
+}
+
+.featured-restaurants {
+    padding: 50px 0;
+    text-align: center;
+}
+
+.featured-restaurants h2 {
+    font-size: 36px;
+    margin-bottom: 30px;
+}
+
+.restaurant {
+    display: inline-block;
+    width: 30%;
+    margin: 0 15px;
+    padding: 20px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.restaurant img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.restaurant h3 {
+    margin-top: 10px;
+}
+
+.restaurant p {
+    color: #666;
+}
+
+/* Style for Locality Boxes */
+.localities {
+    background-color: #f9f9f9;
+    padding: 50px 0;
+}
+
+.locality-boxes {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+    justify-content: center;
+}
+
+.locality-box {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 20px;
+    text-align: center;
+}
+
+.locality-box p {
+    margin: 0;
+}
+
+#show-more {
+    display: block;
+    margin: 20px auto;
+    padding: 10px 20px;
+    background-color: #f44336;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+#show-more:hover {
+    background-color: #f44336;
+}
+/* Style for Restaurant Chain Boxes */
+.chain-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+}
+
+.chain-box {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 20px;
+    text-align: center;
+}
+
+.chain-box p {
+    margin: 0;
+}
+
+#show-more {
+    display: block;
+    margin: 20px auto;
+    padding: 10px 20px;
+    background-color: #f44336;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+#show-more:hover {
+    background-color: #f44336;
+
+}
+.about-us {
+            padding: 50px 0;
+            background-color: #f9f9f9;
+            text-align: center;
+        }
+
+        .about-us .container {
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        .about-us h2 {
+            font-size: 32px;
+            margin-bottom: 20px;
+        }
+
+        .about-us p {
+            font-size: 16px;
+            text-align: left;
+            line-height: 1.6;
+            background-color: #fff; /* Background color for the box */
+            padding: 20px;
+            border-radius: 10px; /* Rounded corners */
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.1); /* Shadow effect */
+        }
+        #signin {
+    padding: 50px 0;
+    text-align: center;
+}
+
+#signin h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+#signin form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#signin label {
+    margin-bottom: 10px;
+}
+
+#signin input {
+    padding: 10px;
+    margin-bottom: 20px;
+    width: 300px;
+}
+
+#signin button {
+    padding: 10px 20px;
+    background-color: #f44336;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+#signin button:hover {
+    background-color: #d32f2f;
+}
+
+
+</style>
+</html>
